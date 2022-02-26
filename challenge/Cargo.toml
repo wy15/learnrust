@@ -1,0 +1,13 @@
+[package]
+name = "challenge"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+challenge1 = { path = "../challenge1" }
+challenge2 = { path = "../challenge2" }
+challenge3 = { path = "../challenge3" }
+challenge4 = { path = "../challenge4" }
+challenge5 = { path = "../challenge5" }
