@@ -11,3 +11,4 @@ challenge2 = { path = "../challenge2" }
 challenge3 = { path = "../challenge3" }
 challenge4 = { path = "../challenge4" }
 challenge5 = { path = "../challenge5" }
+challenge6 = { path = "../challenge6" }
