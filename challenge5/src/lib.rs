@@ -5,7 +5,8 @@ pub fn challenge5() {
         .text()
         .unwrap();
     let pd = resp.as_bytes();
-    let rs = de::value_from_slice(pd, Default::default()).unwrap();
+    let rs = de::from_slice(pd, Default::default()).unwrap();
+    println!("{:?}", rs);
     if let value::Value::List(l0) = rs {
         for ll in l0 {
             if let value::Value::List(l1) = ll {

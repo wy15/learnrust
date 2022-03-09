@@ -1,12 +1,11 @@
 [package]
-name = "challenge5"
+name = "challenge7"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serde = "1.0"
-serde-pickle = "1.0"
-# serde_json = "1.0"
-reqwest = { version = "0.11", features = ["blocking"] }
+# png = "0.17"
+# opencv = "0.63"
+image = "0.24"
